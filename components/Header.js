@@ -23,10 +23,11 @@ function Header() {
     <div className='flex items-center w-full p-6'>
       <Image
       //  loading="lazy" 
-       priority={true}
+      //  priority={true}
         width={120}
         height={40}
-        src='/../public/logo.png'
+        // '
+        src='/../logo.png'
         alt="logo-img"
         onClick={() => router.push("/")}
         className="cursor-pointer"

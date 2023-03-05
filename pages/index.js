@@ -38,10 +38,9 @@ export default function Home() {
       {/* body */}
       <form className="flex flex-col mt-[6rem] items-center flex-grow w-4/5">
         <Image
-        priority={true}
         height={100}
         width={300}
-         src='/../public/logo.gif'
+         src='/../logo.gif'
          alt="google-gif"
         />
         <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border border-gray-200 py-3 px-5 items-center sm:max-w-xl lg:max-w-2xl mb-5">
