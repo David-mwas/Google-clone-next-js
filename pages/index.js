@@ -37,7 +37,8 @@ export default function Home() {
 
       {/* body */}
       <form className="flex flex-col mt-[6rem] items-center flex-grow w-4/5">
-        <Image
+        <img
+        loading="lazy"
         height={100}
         width={300}
          src='/../logo.gif'
