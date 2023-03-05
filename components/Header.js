@@ -19,7 +19,7 @@ function Header() {
  }
 
   return (
-    <header className='sticky top-0 bg-white-900 '>
+    <header className='sticky top-0 bg-white '>
     <div className='flex items-center w-full p-6'>
       <Image
       //  loading="lazy" 
